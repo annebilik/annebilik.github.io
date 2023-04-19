@@ -1,0 +1,88 @@
+/*Media Query*/ 
+@media(min-width:720px){
+	#content {
+	width:80%;
+	margin:auto;
+	}
+	body{
+	background:url(images/colorprints.jpg);
+	}
+	#main-nav li {
+	display:inline;
+	}
+	#main-nav ul {
+	list-style-type:none;
+	text-align:center;
+	}
+	.col-container{
+	display:flex;
+	}
+	.column{
+	flex:1;
+	padding:5px;
+	margin:3px;
+	}
+}
+
+@media print {
+	#main-nav{
+		display:none;
+	}
+	header, footer {
+		display:none;
+	}
+	body{
+		font-family:serif;
+	}
+	#content {
+		width:100%;
+		margin:100%;
+	}
+}
+body{
+	font-family:arial;
+}
+
+header, nav, main, footer {
+	padding:5px;
+}
+
+header {
+	background:rgba(147,112,219,0.9);
+	color:white;
+}
+
+nav {
+	background:rgba(176,224,230,0.9);
+}
+
+#main-nav ul {
+	list-style-type:none;
+}
+
+#main-nav a{
+	text-decoration:none;
+	background:pink;
+}
+
+main {
+	background:rgba(255,192,203,0.9);
+}
+
+header,footer {
+	text-align:center;
+}
+
+
+footer {
+	background:rgba(147,112,219,0.9);
+	
+}
+
+h2{
+	text-align:center;
+}
+.hidden{
+	display:none;
+}
+

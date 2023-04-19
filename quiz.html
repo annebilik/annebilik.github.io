@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Anne Bilik CSCE 102 14 1/18/23 -->
+	<link rel="stylesheet" href="styles.css"> 
+	<title> project </title>
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Anne Bilik</h1>
+	</header>
+	<nav id="main-nav">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="quiz.html">Quiz</a></li>
+		<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+	</nav>
+	<main>
+		<h3> Website Development Quiz </h3>
+	<p>
+		<label for="q-one"> Which would be a self enclosing tag? </label>
+		<select id="q-one">
+			<option> p </option>
+			<option> img </option>
+			<option> div </option>
+			<option> body </option>
+		</select>
+	</p>
+	<p>
+		<label for="q-two"> What does it mean if an element is block level? </label>
+		<select id="q-two">
+			<option> It creates a column </option>
+			<option>It creates a new line</option>
+			<option>it will stay in line</option>
+			<option>it will not display</option>
+		</select>
+	</p>
+	<p>
+		<label for="q-three"> Which of the following is the correct format for the name of a function in JavaScript? </label>
+		<select id="q-three">
+			<option> show.order </option>
+			<option> show()order </option>
+			<option> *show*order </option>
+			<option> showOrder() </option>
+		</select>
+	</p>
+	<p>
+		<label for="q-four"> To create columns, which of the following is used in CSS? </label>
+		<select id="q-four">
+			<option> display:flex; </option>
+			<option> add:columns; </option>
+			<option> position:relative; </option>
+			<option> text-align:center; </option>
+		</select>
+	</p>
+	<button onclick="showResults()"> Submit </button>
+		<h3> Quiz results </h3>
+	<section id="results" class="hidden">
+		<p id="res-one"> </p>
+		<p id="res-two"> </p>
+		<p id="res-three"> </p>
+		<p id="res-four"> </p>
+		<p id="score"> </p>
+	</section>
+	</main>
+	<footer>
+		<p>&copy;Anne Bilik</p>
+	</footer>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

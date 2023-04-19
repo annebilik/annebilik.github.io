@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Anne Bilik CSCE 102 14 1/18/23 -->
+	<link rel="stylesheet" href="styles.css"> 
+	<title> project </title>
+</head>
+<body>
+	<div id="content">
+	<header>
+		<h1>Anne Bilik</h1>
+	</header>
+	<nav id="main-nav">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="quiz.html">Quiz</a></li>
+		<li><a href="contact.html">Contact Me</a></li>
+	</ul>
+	</nav>
+	<main>
+		
+		<img data-num="1" src="images/friends.jpg" alt="Friends" height="450" id="friends" width="800">
+	
+		<img data-num="2" class="hidden" src="images/dog.jpg" alt="Dog" height="450" width="800" id="dog">
+
+		<img data-num="3" class="hidden" src="images/parents.jpg" alt="Parents" height="450" width="800" id="parents">
+
+		<img data-num="4" class="hidden" src="images/cat.jpg" alt="Cat" height="450" width="800" id="cat">
+
+		<h2> About Me </h2>	
+		<p> My name is Anne Bilik. I'm from a small town in northern Illinois. Growing up I did dance, mostly ballet, for 10 years. In high school I did soccer. I am a junior here at the University of South Carolina. I am majoring in biological sciences and working on a minor in business administration. I always wanted to go to college somewhere warmer than Illinois and when I visited here I knew I wanted to go here.</p>
+	<a id="more" href="#" onclick="showMore()"> Show More... </a>
+	<p id="txt" class="hidden"> Besides school, there are a few other things I like to spend my time doing. I like to do yoga and travel when I can. This summer my family is planning to go to Italy for a week so I'm very excited about that. I also like to paint and hangout with my friends. </p>
+	<a id="less" href="#" onclick="showLess()" class="hidden"> Show Less... </a>
+		<h2> My Future Career Plans </h2>	
+		<p> To be completely honest I am still not set on a career path as of now. However, I do have a few options that sound interesting to me. One career path I am interested in is development of food, beverages, or supplements. This is very interesting to me in general and I like that I could aid in the development of something that could be seen in the market. </p>
+	<a id="mores" href="#" onclick="showMores()"> Show More... </a>
+		<p id="txts" class="hidden"> Another career path being research. I think the idea of doing research sounds appealing. I do like research and labs, and I think that research would be a good field to be in because the findings have the opportunity to help everyone. However, I would most likely have to continue on with schooling to get an advanced degree. </P>
+	<a id="lesses" href="#" onclick="showLesses()" class="hidden"> Show Less... </a>
+	<h2> What I Learned In CSCE 102 </h2>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Fk13Bp2bTj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</main>
+	<footer>
+		<p>&copy;Anne Bilik</p>
+	</footer>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
